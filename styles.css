@@ -34,9 +34,6 @@ body {
     padding: 40px;
     border-radius: 15px;
     text-align: center;
-
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .image-container {
@@ -96,4 +93,20 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
+}
+
+@media (max-width: 375px) {
+    .card-container {
+        max-width: 325px;
+        margin: 120px auto;
+        padding: 20px;
+    }
+
+    .description {
+        font-size: 0.9em;
+    }
+
+    .social-links a {
+        font-size: 0.9em;
+    }
 }
